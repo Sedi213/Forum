@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sedma\\source\\repos\\Forum\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\Application.csproj": {
+    "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Sedma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sedma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj"
+              "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Sedma\\source\\repos\\Forum\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sedma\\source\\repos\\Forum\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Sedma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sedma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,11 +93,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\Application.csproj"
+              "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\Application.csproj"
               },
-              "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj"
+              "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj"
               }
             }
           }
@@ -131,14 +131,14 @@
         }
       }
     },
-    "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj": {
+    "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Sedma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sedma\\AppData\\Roaming\\NuGet\\NuGet.Config",

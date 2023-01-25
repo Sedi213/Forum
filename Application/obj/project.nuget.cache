@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e+zV7gZSgkqZ7cr7dMY8iWhknDsB8akeVbqMqWKOvK+FVBBfL16fVa0+jRfb/DZT+CYDIWM2sMBJ0cBFDgtxbQ==",
+  "dgSpecHash": "gSxmRRNUNNSR12WhMHoMlOdMHAOnS5WB1kV/5/cq42C5uyybu+HHjSPSwK0SJ4tmFlbRwo+wMYM4IpnASsCS7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",

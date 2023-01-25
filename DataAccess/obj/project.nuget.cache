@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lqKxeHvvg74drxRQst3D3kBm08TD1X9DF/GC6kaLEk5QpRaJcV3WNcqMO6G3rq+++X+8zMERCR6YV5VtJ13xwQ==",
+  "dgSpecHash": "/CZGYLd0S2cVcGK7lbIbo/3ke2xzQJ8bLe3aQjtZKCFAywCaxSD3iAwfzYSStKfiwyuU1yivmZH4vt/GQLzhCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sedma\\source\\repos\\Forum\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",

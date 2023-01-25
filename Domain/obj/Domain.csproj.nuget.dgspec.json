@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj": {
+    "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Sedma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sedma\\source\\repos\\Forum\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sedma\\AppData\\Roaming\\NuGet\\NuGet.Config",
