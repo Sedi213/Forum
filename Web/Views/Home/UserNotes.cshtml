@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "You Page";
+}
+@model IEnumerable<Domain.Models.Note>
+
+<div class="text-center">
+    <table>
+        @foreach (var data in Model)
+        {
+            <tr>
+                <td>
+                    @data.title
+                </td>
+                <td>
+                    @data.text
+                </td>
+                <td>
+                    @data.CreateDate
+                </td>
+            </tr>
+        }
+    </table>
+</div>
