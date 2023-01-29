@@ -17,6 +17,12 @@
                 <td>
                     @data.CreateDate
                 </td>
+                <td>
+                    <form method="post" action="~/Home/DeleteNote">
+                        <input type="text" name="guid" value="@data.id" hidden="hidden" />
+                        <input type="submit" value="Delete" />
+                    </form>
+                </td>
             </tr>
         }
     </table>

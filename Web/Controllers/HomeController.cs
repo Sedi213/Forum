@@ -2,6 +2,7 @@
 using Domain.ServiceInterfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Diagnostics;
 using System.Runtime.ConstrainedExecution;
 using System.Security.Claims;
@@ -54,5 +55,13 @@ namespace Web.Controllers
             return View(list);
         }
 
+        [HttpPost]
+        [Authorize]
+        public async Task<IActionResult> DeleteNote(Guid guid)
+        {
+            await _noteService.DeleteNote(guid);
+
+            return Redirect("~/Home/UserNotes");
+        }
     }
 }
