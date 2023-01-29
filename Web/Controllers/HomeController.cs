@@ -24,7 +24,7 @@ namespace Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var list =await _noteService.GetListNotes();
+            var list = await _noteService.GetListNotes();
             return View(list);
         }
         [Authorize]
@@ -38,20 +38,26 @@ namespace Web.Controllers
         [HttpPost]
         public IActionResult NewNote(RequestedNote note)
         {
-            _noteService.CreateNote(new Note
+            var userid = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var newid = _noteService.CreateNote(new Note
             {
                 text = note.text,
                 title = note.title,
-                userId =Guid.Parse( User.FindFirstValue(ClaimTypes.NameIdentifier)),
+                userId = Guid.Parse(userid),
                 CreateDate = DateTime.Now,
             });
+
+            _logger.LogInformation($"New note {newid.ToString()} was created by {userid} at{DateTime.Now:hh:mm:ss}");
+
             return Redirect("~/Home/UserNotes");
         }
         [Authorize]
         [HttpGet]
-        public async  Task<IActionResult> UserNotes()
+        public async Task<IActionResult> UserNotes()
         {
-            var list =await _noteService.GetAllNoteByUser(Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)));
+            var list = await _noteService.GetAllNoteByUser(Guid.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)));
+
             return View(list);
         }
 
@@ -59,8 +65,11 @@ namespace Web.Controllers
         [Authorize]
         public async Task<IActionResult> DeleteNote(Guid guid)
         {
+            var userid = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
             await _noteService.DeleteNote(guid);
 
+            _logger.LogInformation($"Note {guid.ToString()} was deleted by {userid} at{DateTime.Now:hh:mm:ss}");
             return Redirect("~/Home/UserNotes");
         }
     }

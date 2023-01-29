@@ -4,6 +4,8 @@ using DataAccess;
 using Domain.ServiceInterfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using NLog;
+using NLog.Extensions.Logging;
 using Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,13 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ForumDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ForumConnection")));
 builder.Services.AddScoped<IForumDbContext, ForumDbContext>();
 builder.Services.AddScoped<INoteService, NoteService>();
+
+NLog.LogManager.Setup().LoadConfiguration(builder => {
+    builder.ForLogger().FilterMinLevel(NLog.LogLevel.Info).WriteToFile(fileName: $"Logs/Log_{DateTime.Now:dd:MM:yyyy}.txt");
+});
+builder.Logging.AddNLog();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

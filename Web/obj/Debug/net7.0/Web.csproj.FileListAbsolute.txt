@@ -168,3 +168,6 @@ C:\Users\Sedma\Documents\GitHub\Forum\Web\obj\Debug\net7.0\refint\Web.dll
 C:\Users\Sedma\Documents\GitHub\Forum\Web\obj\Debug\net7.0\Web.pdb
 C:\Users\Sedma\Documents\GitHub\Forum\Web\obj\Debug\net7.0\Web.genruntimeconfig.cache
 C:\Users\Sedma\Documents\GitHub\Forum\Web\obj\Debug\net7.0\ref\Web.dll
+C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\NLog.dll
+C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\NLog.Web.AspNetCore.dll

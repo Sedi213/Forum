@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Jo4KmIFNq6GCM6Dp/2L2N4Mp6stNuVi2+22Gf8MwosUoRn1jw9VasWI6+KsM2tiWCk5E8RGTZwXWk3ULPev+uw==",
+  "dgSpecHash": "68SSIzf2WRtxQ63Q1FizgGHsfL54S0tHE1bGFmS7FkH5mcqinfaDxM+JZGac1l//ilBINREfQvQSl/KzE3xYfg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\Web\\Web.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,9 @@
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\nlog\\5.1.1\\nlog.5.1.1.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\nlog.extensions.logging\\5.2.1\\nlog.extensions.logging.5.2.1.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\nlog.web.aspnetcore\\5.2.1\\nlog.web.aspnetcore.5.2.1.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
