@@ -28,6 +28,7 @@ NLog.LogManager.Setup().LoadConfiguration(builder => {
 });
 builder.Logging.AddNLog();
 
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 var app = builder.Build();
 

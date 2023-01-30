@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using AutoMapper;
+using Domain.Models;
 using Domain.ServiceInterfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,18 +14,25 @@ namespace Web.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly IMapper _mapper;
         private readonly ILogger<HomeController> _logger;
         private readonly INoteService _noteService;
 
-        public HomeController(ILogger<HomeController> logger, INoteService noteService)
+        public HomeController(ILogger<HomeController> logger, 
+                               INoteService noteService,
+                               IMapper mapper)
         {
+            _mapper=mapper;
             _logger = logger;
             _noteService = noteService;
         }
 
         public async Task<IActionResult> Index()
         {
-            var list = await _noteService.GetListNotes();
+            var rawlist = await _noteService.GetListNotes();
+
+            var list = _mapper.Map<Note[], IEnumerable<NoteModel>>(rawlist.ToArray()).ToList();
+            
             return View(list);
         }
         [Authorize]

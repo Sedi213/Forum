@@ -171,3 +171,6 @@ C:\Users\Sedma\Documents\GitHub\Forum\Web\obj\Debug\net7.0\ref\Web.dll
 C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\NLog.dll
 C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\NLog.Extensions.Logging.dll
 C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\NLog.Web.AspNetCore.dll
+C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\libman.json
+C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Sedma\Documents\GitHub\Forum\Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
