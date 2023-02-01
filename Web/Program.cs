@@ -1,11 +1,17 @@
+using Application;
 using Application.InterfacesDB;
+using Application.Mapping;
 using Application.Services;
+using Application.Services.Notes.Queries.GetAllNotes;
+using AutoMapper;
 using DataAccess;
 using Domain.ServiceInterfaces;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Extensions.Logging;
+using System.Reflection;
 using Web.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,14 +27,21 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ForumDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ForumConnection")));
 builder.Services.AddScoped<IForumDbContext, ForumDbContext>();
-builder.Services.AddScoped<INoteService, NoteService>();
+
+builder.Services.AddAutoMapper(config =>
+{
+    config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
+    config.AddProfile(new AssemblyMappingProfile(typeof(IForumDbContext).Assembly));
+});
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.AddApplication();
 
 NLog.LogManager.Setup().LoadConfiguration(builder => {
     builder.ForLogger().FilterMinLevel(NLog.LogLevel.Info).WriteToFile(fileName: $"Logs/Log_{DateTime.Now:dd:MM:yyyy}.txt");
 });
 builder.Logging.AddNLog();
 
-builder.Services.AddAutoMapper(typeof(Program).Assembly);
+
 
 var app = builder.Build();
 

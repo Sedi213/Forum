@@ -1,9 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "/CZGYLd0S2cVcGK7lbIbo/3ke2xzQJ8bLe3aQjtZKCFAywCaxSD3iAwfzYSStKfiwyuU1yivmZH4vt/GQLzhCg==",
+  "dgSpecHash": "N00SuHuxtsiiYfe9HbQlfOb19Bg2JO37UPWRegd4Dv65Sf0JaIzawpp7IwUUZR1dSEn0+QsgswjcuIkuGkacWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Sedma\\Documents\\GitHub\\Forum\\DataAccess\\Persistantce.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Sedma\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
     "C:\\Users\\Sedma\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.2\\microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",

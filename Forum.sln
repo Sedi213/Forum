@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8D174FF4-4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{B39DB83B-B213-42DD-9E26-4F1DE7A8DEC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A991CAA8-60B7-4398-8904-137CEE086CC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{A991CAA8-60B7-4398-8904-137CEE086CC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{4AD9544D-AB5C-4BA2-8FDC-852DF9226563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{4AD9544D-AB5C-4BA2-8FDC-852DF9226563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{24AB6137-6125-4DF1-889A-9A43D21C5BD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "Web\Web.csproj", "{24AB6137-6125-4DF1-889A-9A43D21C5BD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D0A7F004-8F2A-4911-BAF7-7033A9AEC9D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistantce", "DataAccess\Persistantce.csproj", "{D0A7F004-8F2A-4911-BAF7-7033A9AEC9D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,17 @@
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Persistantce.deps.json
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Persistantce.dll
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Persistantce.pdb
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Application.dll
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Domain.dll
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Application.pdb
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\bin\Debug\net7.0\Domain.pdb
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.csproj.AssemblyReference.cache
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.AssemblyInfoInputs.cache
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.AssemblyInfo.cs
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.csproj.CoreCompileInputs.cache
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.csproj.CopyComplete
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.dll
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\refint\Persistantce.dll
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\Persistantce.pdb
+C:\Users\Sedma\Documents\GitHub\Forum\DataAccess\obj\Debug\net7.0\ref\Persistantce.dll
